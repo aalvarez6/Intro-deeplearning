@@ -8,7 +8,7 @@ st.write ("Determinar que tan bien estoy haciendo los estiramientos de YOGA")
 nombre = st.text_input ("Escribe tu nombre:")
 # Boton
 if st.button ("Saludar"):
-  st.success(f"hola {nombre}, bienvenido a YoGiOH!)
+   st.success(f"hola {nombre}, bienvenido a YoGiOH!)
 
 # Slider
 edad = st.slider("seleciona tu edad", 0, 100, 25)
