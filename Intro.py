@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 st.title("Mi primera APP interactiva")
 #st.subtitle 
@@ -14,11 +15,6 @@ if st.button ("Saludar"):
 edad = st.slider("seleciona tu edad", 0, 100, 25)
 st.write("Tu edad es:", edad)
 
-#Carga de imagenes
-import streamlit as st
-from PIL import Image
-
-st.title(" Mi Primera App!!")
 
 st.header("En este espacio comienzo a desarrollar mis aplicaciones para interfaces multimodales.")
 st.write("Facilmente puedo realizar backend y frontend.")
