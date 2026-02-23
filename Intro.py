@@ -4,3 +4,7 @@ st.title("Mi primera APP interactiva")
 #st.subtitle 
 #Texto
 st.write ("Determinar que tan bien estoy haciendo los estiramientos de YOGA")
+#Entrada de texto
+nombre = st.text_input ("Escribe tu nombre:")
+
+
