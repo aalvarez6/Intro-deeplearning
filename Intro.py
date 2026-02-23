@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("esta es mi primera APP interactiva")
+st.title("Mi primera APP interactiva")
